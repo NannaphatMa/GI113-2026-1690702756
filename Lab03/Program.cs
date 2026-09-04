@@ -49,9 +49,9 @@ namespace Lab03
             Console.WriteLine($"Attack Power (int cast): {attackPowerIntCast}");
 
             // 4. Cast vs. Convert double (critMultiplier) -->> int
-            Console.WriteLine("\n----- Cast vs. Convert double: critMultiplier as int -----");
+            Console.WriteLine("\n----- Cast vs. Convert: critMultiplier -----");
             int critMultiplierIntCast = (int)critMultiplier;
-            Console.WriteLine($"Crit Multiplier (int cast): {critMultiplier}");
+            Console.WriteLine($"Crit Multiplier (int cast): {critMultiplierIntCast}");
             int critMultiplierConvertRounded = Convert.ToInt32(critMultiplier);
             Console.WriteLine($"Crit Multiplier (convert rounded): {critMultiplierConvertRounded}");
 
